@@ -1,0 +1,669 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    height: 450px;
+    background-color: rgb(26, 26, 80);
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /*background-color: rgb(54, 3, 3);*/
+    height: 50px;
+}
+.nav-heading{
+    color: white;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+}
+.nav-links{
+    color: antiquewhite;
+    margin-left: 40px;
+}
+.nav-links-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home:hover{
+    border-bottom: 2px solid red;
+}
+.Resume:hover{
+    border-bottom: 2px solid red;
+    
+}
+.Service:hover{
+    border-bottom: 2px solid red;
+}
+.languages:hover{
+    border-bottom: 2px solid red;
+}
+.contact:hover{
+    border-bottom: 2px solid red;
+}
+.myself{
+    display: flex;
+    flex-direction: column;
+}
+.i-am{
+    color: whitesmoke;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+.profile-img{
+    border-radius: 20px;
+}
+.myself{
+    margin-left: 150px;
+}
+.saddam{
+    color: white;
+    font-size: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.anwar{
+    color: orange;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 12px;
+    margin-top: -20px;
+}
+#resume{
+    background-color: rgb(14, 9, 9);
+    height: 600px;
+}
+.resume-heading{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 50px;
+    padding-top: 40px;
+}
+.container-2{
+    display: flex;
+    /*justify-content: center;
+    justify-content: space-between;*/
+}
+.resume-profile{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.resume-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.resume-section h1, h3{
+    color: white;
+    width: 5%;
+    
+}
+.resume-section p{
+    color: white;
+    width: 25%;
+}
+.resume-data{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+#languages{
+    height: 650px;
+    background-color: rgb(26, 26, 80);
+}
+#languages h1, h5{
+    color: white;
+    text-align: center;
+}
+#languages h1{
+    font-size: 40px;
+    padding-top: 20px;
+}
+#languages h5{
+    font-size: 20px;
+    padding-top: 10px;
+}
+/*progress bar*/
+
+.progress-container {
+    width: 80%;
+    max-width: 600px;
+    background-color: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.html {
+    width: 0;
+    height: 30px;
+    background-color: #4caf50;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    transition: width 0.5s ease;
+}
+.all-progress-bars{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+/*progress bar end*/
+#service{
+    background-color: rgb(14, 9, 9);
+    height: 450px;
+}
+#service h1{
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 50px;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 255, 255, 0.575);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: black;
+    border: 5px aqua solid;
+    transform: translateY(30px);
+}
+.box h1, p{
+    color: white;
+}
+.all-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#projects{
+    height: 850px;
+    background-color: rgb(26, 26, 80);
+}
+.web{
+    height: 300px;
+    width: 300px;
+    background-color: rgba(0, 255, 255, 0.575);
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.web a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    font-size: 23px;
+}
+.web:hover{
+    background-color: black;
+    border: 5px aqua solid;
+    transform: translateY(30px);
+}
+.project-web-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.app{
+    height: 220px;
+    width: 220px;
+    background-color: rgba(0, 255, 255, 0.575);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.app a{
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 12px;
+}
+.app:hover{
+        background-color: black;
+        border: 5px aqua solid;
+        transform: translateY(30px);
+}
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#reviews{
+    height: 1050px;
+    background-color: rgb(14, 9, 9);
+}
+
+.reviews-img{
+    width: 70%;
+    border: 4px solid aqua;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    gap: 40px;
+}
+#contact{
+    height: 800px;
+    background-color: rgb(26, 26, 80);
+}
+.all-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact-img{
+    border-radius: 20px;
+}
+.icons{
+    display: flex;
+    gap: 50px;
+}
+.fa-brands:hover{
+    font-size: 50px;
+}
+.fa-facebook{
+    font-size: 40px;
+}
+.fa-tiktok{
+    font-size: 40px;
+    color: #010101;
+}
+.fa-instagram{
+    font-size: 40px;
+    color: #5B51D8;
+}
+.fa-youtube{
+    font-size: 40px;
+    color: red;
+}
+.img-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+.first-last{
+    display: flex;
+    gap: 20px;
+}
+.name{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-right: 19%;
+}
+.messege{
+    height: 100px;
+    width: 420px;
+    border-radius: 5px;
+    border: none;
+}
+.first::placeholder{
+    color: black;
+    text-align: center;
+}
+.last::placeholder{
+    color: black;
+    text-align: center;
+}
+.messege{
+    color: black;
+    text-align: center;
+}
+.reset{
+    padding: 12px;
+    background-color: transparent;
+    color: white;
+    border: orange 2px solid;
+    border-radius: 10px;
+}
+.submit{
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    border: transparent 2px solid;
+    border-radius: 10px;
+}
+.reset:hover{
+    padding: 12px;
+    background-color: orange;
+    color: white;
+    border: transparent 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.submit:hover{
+    padding: 12px;
+    background-color: transparent;
+    color: white;
+    border: orange 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    gap: 40px;
+}
+
+
+
+
+
+
+
+
+/*media query*/
+@media (min-width: 375px) and (max-width: 600px) {
+    .nav-links{
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    .nav-links-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    header{
+        height: 700px;
+    }
+    .profile-img{
+        width: 70%;
+    }
+    .myself{
+        margin-left: 10px;
+    }
+    .container-1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+    #resume{
+        height: 1000px;
+    }
+    .resume-data{
+        width: 100%;
+    }
+    .resume-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .resume-section p{
+        width: 80%;
+    }
+    .resume-data{
+        margin-top: 10px;
+    }
+    .resume-img{
+        width: 60%;
+    }
+    .all-boxes{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    #service{
+        height: 1200px;
+        
+    }
+    .app-container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .project-web-boxes{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #reviews{
+        height: 1225px;
+    }
+    .reviews-img{
+        width: 70%;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 15%;
+    }
+    #contact{
+        height: 900px;
+    }
+    .all-container{
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+    }
+    .form{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .img-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    .nav-links{
+        margin-left: 12px;
+    }
+    .myself{
+        margin-left: 15px;
+    }
+    header{
+        height: 550px;
+    }
+    .saddam{
+        font-size: 70px;
+    }
+    .anwar{
+        font-size: 60px;
+    }
+    .profile-img{
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    #resume{
+        height: 700px;
+    }
+    .resume-section p{
+        width: 80%;
+    }
+    .resume-img{
+        width: 35%;
+    }
+    #contact{
+        height: 1000px;
+    }
+    .all-container{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .contact-img{
+        width: 40%;
+    }
+    .img-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .form{
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .resume-section p{
+        width: 80%;
+    }
+    .all-container{
+        display: flex;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 950px) {
+    .all-boxes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        margin-left: 110px;
+    }
+    #service{
+        height: 800px;
+    }
+    .project-web-boxes{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin-left: 10%;
+
+
+}
+}
+
+/*apps media query*/
+
+@media (min-width: 375px) and (max-width: 600px) {
+    .app-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    #projects{
+        height: 2600px;
+    }
+}
+@media (min-width: 600px) and (max-width: 950px){
+    .app-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+        margin-left: 10%;
+    }
+    #projects{
+        height: 2100px;
+    }
+}
+@media (min-width: 950px) and (max-width: 1200px){
+    .app-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 40px;
+        margin-left: 10%;
+    }
+    #projects{
+        height: 1200px;
+    }
+}
+/*end*/
+@media (min-width: 600px) and (max-width: 900px){
+    #reviews{
+        height: 1400px;
+    }
+    .images{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .reviews-img{
+        overflow: hidden;
+        width: 50%;
+    }
+
+}
+@media (min-width: 1000px) and (max-width: 1250px) {
+    .icons{
+        gap: 30px;
+    }
+    .form{
+        margin-left: 3%;
+    }
+    .contact-img{
+        width: 90%;
+    }
+    .fa-brands{
+        font-size: 30px;
+    }
+    .fa-brands:hover{
+        font-size: 25px;
+    }
+}
+

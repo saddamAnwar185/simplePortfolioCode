@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random jokes Generator</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    margin-top: 8%;
+    background-color: aqua;
+    height: 350px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+p{
+    width: 80%;
+    font-size: 25px;
+}
+h1{
+    font-size: 50px;
+}
+.btn{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Random jokes &#128540;</h1>
+        <p>Click on GEt JOKE to see jokes</p>
+        <button class="btn">Get Joke</button>
+    </div>
+
+    <script>
+        let url = "https://official-joke-api.appspot.com/random_joke";
+        let btn = document.querySelector(".btn");
+        const generateJoke = async () => {
+            let data = await fetch(url)
+            let joke = await data.json()
+            document.querySelector("p").innerText = joke.setup
+        }
+        btn.addEventListener("click", () => {
+            generateJoke();
+        });
+        </script>
+</body>
+</html>

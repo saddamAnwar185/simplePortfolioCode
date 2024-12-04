@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    border-radius: 20px;
+    margin-top: 11%;
+    background-color: aqua;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    font-size: 70px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hours">00</div>
+        <div>:</div>
+        <div class="minutes">00</div>
+        <div>:</div>
+        <div class="seconds">00</div>
+
+    </div>
+
+    <script>
+        
+        setInterval(() => {
+            let date = new Date();
+            document.querySelector(".hours").innerText = date.getHours()
+            document.querySelector(".minutes").innerText = date.getMinutes()
+            document.querySelector(".seconds").innerText = date.getSeconds()
+        },1000);
+    </script>
+</body>
+</html>

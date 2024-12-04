@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Implants</title>
+    <style>
+        img{
+            float: left;
+            margin: 12px;
+        }
+        h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+        input{
+            background-color: rgba(195, 0, 255, 0.171);
+            border: none;
+        }
+        p{
+            font-size: large;
+            color: rgb(0, 0, 0);
+        }
+        body{
+            background-color: rgba(223, 216, 124, 0.623);
+        }
+        h1{
+            background-color: rgb(79, 160, 231);
+        }
+    </style>
+</head>
+<body>
+    <img src="dental-implant.webp" width="25%" alt="img">
+    <h3>Dental Implants:-</h3>
+    <p>Dental implants are a revolutionary solution for replacing missing teeth and restoring oral function and aesthetics. Made of biocompatible materials like titanium, dental implants are surgically placed into the jawbone where they serve as artificial tooth roots. This integration with the bone provides a sturdy foundation for attaching custom-made crowns, bridges, or dentures, resulting in natural-looking and durable replacements. Dental implants not only enhance chewing ability and speech but also prevent bone loss and preserve facial structure. They require good oral hygiene and regular dental check-ups for long-term success. As a versatile treatment option, dental implants have transformed dental care by offering a permanent solution that closely mimics natural teeth in both form and function.
+    </p>
+    <hr>
+    <h1>Appointment Form</h1>
+    <form action="">
+    <P>
+        First name: <input type="text" name="first" id="1" required>
+        <p>
+            Last Name: <input type="text" name="last" id="2" required>
+            
+        </p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="gender" id="3" required>
+            Female <input type="radio" name="gender" id="3" required>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Date</legend>
+    <p>
+        <input type="date" name="date" id="4" required>
+    </p>
+</fieldset>
+</P>
+<p> CNIC
+<input type="password" name="Cnic" id="5" required>
+</p>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+<hr>
+</body>
+</html>

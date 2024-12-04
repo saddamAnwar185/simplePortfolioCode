@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    height: 800px;
+    background-color: black;
+}
+.logo{
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px
+}
+.logo{
+    position: relative;
+    top: 18px;
+    left: 80px;
+}
+.container{
+    position: relative;
+    top: -7px;
+    left: 150px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+    margin-left: 5px;
+    padding: 15px;
+}
+a:hover{
+    background-color: #ffffff3b;
+    border-radius: 80px;
+}
+label{
+    color: #ffff;
+    padding: 15px;
+}
+label:hover{
+    background-color: #ffffff3b;
+    border-radius: 80px;
+}
+select{
+    width: 21px;
+}
+label{
+    margin-left: 25px;
+}
+.help{
+    margin-left: 200px;
+}
+.signup{
+    background-color: #ffff;
+    color: black;
+    border-radius: 80px;
+    font-size: 15px;
+}
+.signup:hover{
+    background-color: #ffffffce;
+}
+select{
+    background-color: black;
+    color: #ffff;
+    border: 1px solid black;
+}
+.headerpic{
+    display: inline;
+    float: right;
+    position: relative;
+    top: 50px;
+    right: 80px;
+}
+.first-heading{
+    color: #ffff;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.para-header{
+    color: #ffff;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-size: 25px;
+}
+.location{
+    position: relative;
+    top: 200px;
+    left: 99px;
+    font-size: 17px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ffffffa2;
+}
+.location-enter{
+    color: #ffff;
+    position: relative;
+    top: 220px;
+    left: 120px;
+}
+.enter-des{
+    color: #ffff;
+    position: relative;
+    top: 220px;
+    left: 120px;
+    font-size: 17px;
+}
+.loaction2{
+    position: relative;
+    top: 190px;
+    left: 99px;
+    font-size: 17px;
+    border-radius: 12px;
+    border: none;
+    background-color: #ffffffa2;
+}
+.submit{
+    position: relative;
+    top: 240px;
+    left: -101px;
+    padding: 12px;
+    color: black;
+    background-color: #ffff;
+    border-radius: 9%;
+    border: none;
+}
+
+

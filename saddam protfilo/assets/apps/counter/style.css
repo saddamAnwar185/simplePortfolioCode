@@ -1,0 +1,47 @@
+body{
+    background-color: rgba(241, 241, 77, 0.61);
+}
+.heading{
+    text-align: center;
+    display: inline-flex;
+    background-color: rgba(0, 0, 255, 0.507);
+    margin-left: 45%;
+    padding: 12px;
+    border-radius: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.minus{
+    padding: 4px 17px;
+    margin-right: 12px;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    border: none;
+}
+.number{
+    margin-right: 12px;
+    padding: 4px 28px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border: none;
+}
+.plus{
+    padding: 4px 12px;
+    background-color: green;
+    color: black;
+    font-size: 30px;
+    border: none;
+}
+.reset-button{
+    margin-left: 47%;
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+    border: none;
+}

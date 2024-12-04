@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cat facts</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Cat Related Facts</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem totam tempora tenetur illum reprehenderit quam repellat. Repellat qui, officiis, eligendi aut, dolore quisquam quaerat ut ipsum aliquid delectus aperiam. Voluptatum cupiditate voluptatibus fugit enim eos. Dolorum in nulla maiores amet laborum. Mollitia rerum velit quia quod tempora maxime incidunt veniam.</p>
+        <button class="btn">Get Fact</button>
+    </div>
+
+    <script>
+        let url = "https://cat-fact.herokuapp.com/facts/random";
+        let factGene = async () => {
+            let data = await fetch(url)
+            let finalFact = await data.json()
+            document.querySelector("p").innerText = finalFact.text;
+        }
+        let btn = document.querySelector(".btn");
+        btn.addEventListener("click", () => {
+            factGene();
+        });
+    </script>
+</body>
+</html>

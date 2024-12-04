@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tooth ectraction</title>
+    <style>
+        img{
+            float: left;
+            margin: 12px;
+        }
+        h1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-align: center;
+        }
+        input{
+            background-color: rgba(195, 0, 255, 0.171);
+            border: none;
+        }
+        p{
+            font-size: large;
+            color: rgb(0, 0, 0);
+        }
+        body{
+            background-color: rgba(223, 216, 124, 0.623);
+        }
+        h1{
+            background-color: rgb(79, 160, 231);
+        }
+    </style>
+</head>
+<body>
+    <img src="ectract.jpg" alt="image">
+    <h3>Tooth Ectraction:-</h3>
+    <p>Regular tooth cleaning, whether at home through daily brushing and flossing or professionally at the dentist's office, offers numerous benefits beyond just a sparkling smile. It helps prevent tooth decay by removing plaque, a sticky film of bacteria that contributes to cavities. Additionally, cleaning reduces the risk of gum disease by eliminating plaque and tartar buildup, which can lead to gingivitis and more severe periodontal problems if left untreated. Fresh breath is another perk, as clean teeth and gums minimize odor-causing bacteria. Moreover, maintaining good oral hygiene through regular cleaning supports overall health, as there's a growing understanding of the link between oral health and conditions such as heart disease and diabetes. Ultimately, investing in regular tooth cleaning not only enhances dental aesthetics but also promotes long-term oral and systemic well-being.
+    </p>
+    <hr>
+    <h1>Appointment Form</h1>
+    <form action="">
+    <P>
+        First name: <input type="text" name="first" id="1" required>
+        <p>
+            Last Name: <input type="text" name="last" id="2" required>
+            
+        </p>
+        <fieldset>
+            <legend>Gender</legend>
+        <p>
+            Male <input type="radio" name="gender" id="3" required>
+            Female <input type="radio" name="gender" id="3" required>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Date</legend>
+    <p>
+        <input type="date" name="date" id="4" required>
+    </p>
+</fieldset>
+</P>
+<p> CNIC
+<input type="password" name="Cnic" id="5" required>
+</p>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+<hr>
+    
+</body>
+</html>

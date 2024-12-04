@@ -1,0 +1,113 @@
+
+img{
+    float: left;
+    margin: 2px;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+header{
+    background-color: rgb(165, 42, 42);
+    padding: 15px;
+    margin: 12px;
+}
+a{
+    margin: 12px;
+    color: white;
+    text-decoration: none;
+}
+nav{
+    
+    background-color: rgba(0, 0, 255, 0.418);
+    padding: 10px;
+    height: 30px;
+
+}
+footer a{
+    padding: 10px 18px;
+    background-color: rgba(0, 0, 255, 0.418);
+    border-radius: 25px;
+}
+footer{
+    background-color: rgba(0, 0, 255, 0.418);
+    padding: 12px;
+    height: 30px;
+}
+b{
+    font-size: x-large;
+}
+h2{
+    
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+h3{
+    font-size: 30px;
+}
+.firstclass{
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.418);
+    border-radius: 25px;
+    color: white;
+    position: relative;
+    top: 7px;
+}
+.firstclass:hover{
+    padding: 20px 35px;
+    background-color: rgba(0, 0, 255, 0.418);
+    color: black;
+}
+.secondclass{
+    border-radius: 30px;
+    background-color: rgba(106, 106, 243, 0.87);
+    padding: 7px;
+}
+.secondclass:hover{
+    padding: 12px 25px;
+    background-color: rgba(0, 0, 255, 0.418);
+    color: black;
+}
+.head{
+    background-color: rgba(165, 42, 42, 0.76);
+    color: white;
+    border-radius: 35px;
+    padding: 12px 15px;
+}
+.yt,.youtube{
+    color: red;
+}
+.in,.instagram{
+    color: purple;
+}
+.youtube,.instagram{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.media{
+    display: flex;
+    margin: 0px 12px;
+}
+.tictok{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fb,.facebook{
+    color: blue;
+}
+.facebook{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tl{
+    color: rgba(47, 47, 233, 0.771);
+}
+.telegram{
+    color: rgba(47, 47, 233, 0.771);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
